@@ -1,3 +1,44 @@
 body {
-    background: color #223240;
+    font-family: "Protest Riot", sans-serif;
+    background-color: #F5E8CE;
+    color: #647CA0
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45pt;
+}
+
+header {
+  text-align:center
+
+}
+
+#hero {
+
+    text-align: center;
+    background-color: #B5A481;
+    padding: 2.5rem;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #B5A481;
+    padding: 1rem;
+
+}
+
+#hero img { 
+   
+    width: 20rem;
+
+
+
+}
+
+#bio {
+    text-align: center;
 }
