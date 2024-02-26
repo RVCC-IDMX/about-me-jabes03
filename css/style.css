@@ -56,6 +56,7 @@ footer {
 
 #gallery {
     border: 15px solid #756036;
+    margin-bottom: 2rem;
 }
 
 #gallery img {
@@ -63,4 +64,22 @@ footer {
 }
 #gallery figure{
     text-align: center;
+}
+
+/* Literature Section */
+#lit {
+    border: 15px solid #756036;
+    margin-bottom: 2rem;
+}
+#lit div {
+    padding:2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+
+}
+
+
+#lit div p::first-letter{
+color: red
+
 }
