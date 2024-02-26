@@ -32,11 +32,12 @@ footer {
 
 }
 
+/* Hero Section*/
 #hero img { 
    
     width: 20rem;
 
-
+/* Bio Section*/
 
 }
 
@@ -44,8 +45,22 @@ footer {
     text-align: center;
 }
 
+/* Hobbie Section*/
 #hobbies{
-    
+
     color: greenyellow;
     
+}
+
+/*Gallery Section */
+
+#gallery {
+    border: 15px solid #756036;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+#gallery figure{
+    text-align: center;
 }
