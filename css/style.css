@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+h2 {
+    margin: .1em;
+}
+
 header {
   text-align:center
 
@@ -49,6 +53,10 @@ footer {
 #hobbies{
 
     color: greenyellow;
+        display: flex; 
+    flex-direction: column; 
+    align-items: center;
+   
     
 }
 
@@ -82,4 +90,21 @@ footer {
 #lit div p::first-letter{
 color: red
 
+}
+
+* {
+    outline: 1px solid red
+}
+
+@media screen and (min-width: 60em)
+figure {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
 }
