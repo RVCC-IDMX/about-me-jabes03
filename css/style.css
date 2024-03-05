@@ -65,6 +65,7 @@ footer {
 #gallery {
     border: 15px solid #756036;
     margin-bottom: 2rem;
+   
 }
 
 #gallery img {
@@ -88,23 +89,41 @@ footer {
 
 
 #lit div p::first-letter{
-color: red
+    max-width:100%;
+    columns: 40rem; 
 
 }
+/* large screen size */
+@media screen and (min-width: 100em) {
 
-* {
-    outline: 1px solid red
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr{
+        display: none;
+    }
 }
 
-@media screen and (min-width: 60em)
-figure {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-
+#gallery h2 {
+    grid-column: 1/-1
 }
-figcaption {
-    display: flex;
+
+/* tablet size */
+@media screen and (min-width: 60em) { 
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    figcaption {
+        display:flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    margin-left: 1rem;
+
+}
+
 }
