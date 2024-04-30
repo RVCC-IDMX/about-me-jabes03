@@ -36,6 +36,9 @@ I also tried to be mindful of people who may suffer from correctly differentiati
 ## Citations
 - [w3schools](https://www.w3schools.com/)
 
+- [Figma](https://www.figma.com)
+
+- [Favicon Generator](https://www.favicon-generator.org/)
 
 
 ## License
