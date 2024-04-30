@@ -52,11 +52,8 @@ footer {
 /* Hobbie Section*/
 #hobbies{
 
-    color: greenyellow;
-        display: flex; 
-    flex-direction: column; 
-    align-items: center;
-   
+    
+        text-align: center;
     
 }
 
