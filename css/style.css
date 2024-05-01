@@ -84,6 +84,17 @@ footer {
 
 }
 
+#blog_text {
+    
+    background-image: url(https://pixabay.com/get/g09ba227fbff9b5e27410b6f90ac0b91aafcae96992f485d042a636d58fa22b082d883112c488df0e1abf43b80c24323fb8595375047ffc5eefee6cb0c95e092a7a03230fbf16449049d7ed71d019d502_640.jpg);
+   
+}
+
+#sample_code {
+    color: white;
+    background-image: url(https://img.freepik.com/free-photo/free-photo-black-grunge-abstract-background-pattern-wallpaper_1340-33848.jpg?t=st=1714525248~exp=1714528848~hmac=c7aac0e705a9454d2f3be3d894ea8e2dd517e3097355c72fea4bd53fc449c020&w=740)
+}
+
 
 #lit div p::first-letter{
     max-width:100%;

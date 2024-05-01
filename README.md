@@ -36,10 +36,27 @@ I also tried to be mindful of people who may suffer from correctly differentiati
 ## Citations
 - [w3schools](https://www.w3schools.com/)
 
+    - [Background Images](https://www.w3schools.com/cssref/pr_background-image.php)
+    - [Repeat](https://www.w3schools.com/cssref/pr_background-repeat.php#:~:text=The%20background%2Drepeat%20property%20sets,to%20the%20background%2Dposition%20property.)
+    - [Origin](https://www.w3schools.com/cssref/css3_pr_background-origin.php)
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
+
+    - [Size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size)
+    - [Position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
+    - [Clip](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip)
+
+
 - [Figma](https://www.figma.com)
 
 - [Favicon Generator](https://www.favicon-generator.org/)
 
+- [Pixabay](https://pixabay.com/illustrations/field-background-meadow-fun-1728099/)
 
+- [FreePik](https://www.freepik.com/)
+    - <a href="https://www.freepik.com/free-ai-image/free-photo-black-grunge-abstract-background-pattern-wallpaper_40685516.htm#query=plain%20black%20background&position=0&from_view=keyword&track=ais&uuid=21d5b4c3-7ab3-4c8c-8949-70c4bd5b1df0">Image by Sketchepedia on Freepik</a>
+
+- [freeCodeCamp](https://www.freecodecamp.org/)
+    - [Background-Images](https://www.freecodecamp.org/news/html-background-image-how-to-add-wallpaper-images-to-your-website/)
 ## License
 
