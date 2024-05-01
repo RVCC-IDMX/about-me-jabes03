@@ -1,3 +1,84 @@
+
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+
+}
+
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+
+    
+}
+
+.nav-branding{
+    font-size: 2rem;
+
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+
+}
+
+@media (max-width:768px){
+    .hamburger{
+        display: block;
+
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity:0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        text-align: center;
+        transition: 0.3s;
+
+    
+    }
+
+    .nav-item{
+        margin: 16px 0;
+
+    }
+
+    .nav-menu.active{
+        left: 0;
+        
+    }
+}
+
+
+
 body {
     font-family: "Protest Riot", sans-serif;
     background-color: #F5E8CE;
@@ -82,17 +163,18 @@ footer {
     max-width: 40rem;
     margin: 0 auto;
 
+
 }
 
 #blog_text {
     
-    background-image: url(https://pixabay.com/get/g09ba227fbff9b5e27410b6f90ac0b91aafcae96992f485d042a636d58fa22b082d883112c488df0e1abf43b80c24323fb8595375047ffc5eefee6cb0c95e092a7a03230fbf16449049d7ed71d019d502_640.jpg);
+background-image:url(https://pixabay.com/get/g09ba227fbff9b5e27410b6f90ac0b91aafcae96992f485d042a636d58fa22b082d883112c488df0e1abf43b80c24323fb8595375047ffc5eefee6cb0c95e092a7a03230fbf16449049d7ed71d019d502_640.jpg);
    
 }
 
 #sample_code {
     color: white;
-    background-image: url(https://img.freepik.com/free-photo/free-photo-black-grunge-abstract-background-pattern-wallpaper_1340-33848.jpg?t=st=1714525248~exp=1714528848~hmac=c7aac0e705a9454d2f3be3d894ea8e2dd517e3097355c72fea4bd53fc449c020&w=740)
+    background-image:url(https://img.freepik.com/free-photo/free-photo-black-grunge-abstract-background-pattern-wallpaper_1340-33848.jpg?t=st=1714525248~exp=1714528848~hmac=c7aac0e705a9454d2f3be3d894ea8e2dd517e3097355c72fea4bd53fc449c020&w=740)
 }
 
 
@@ -119,12 +201,22 @@ footer {
     figure {
         display: block;
     }
-}
+
+
+    
+
+    }
+    
+
+
+
 
 
 
 /* tablet size */
-@media screen and (min-width: 60em) { 
+@media screen and (min-width: 60em) {
+
+
     figure {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -139,7 +231,7 @@ footer {
 
 }
 
-}
+
 
 /*Contact Form*/
 
@@ -193,4 +285,5 @@ legend{
     width:50%;
     justify-self: center;
 
+}
 }
